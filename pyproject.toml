@@ -1,5 +1,5 @@
 [project]
-name = "rag-md-engine"
+name = "rag_md_engine"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
