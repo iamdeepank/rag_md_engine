@@ -16,10 +16,10 @@
     
 
 
-from src.datacontract import MarkdownDataContract
-from src.step_executor import BaseStepExecutor
+from rag_md_engine.datacontract import MarkdownDataContract
+from rag_md_engine.step_executor import BaseStepExecutor
 
-from src.manual_markdown import DeMarkdownStep
+from rag_md_engine.manual_markdown import DeMarkdownStep
  
 hilfe_documents: list[MarkdownDataContract]
 with BaseStepExecutor() as exe:

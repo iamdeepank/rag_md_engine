@@ -8,8 +8,8 @@ from typing import Union
 from pydantic import BaseModel
 from pydantic import create_model as py_create_model
 
-from src.datacontract import Settings, SettingsBase
-from src.datacontract import TypedStep
+from rag_md_engine.datacontract import Settings, SettingsBase
+from rag_md_engine.datacontract import TypedStep
 
 
 # pylint: disable-next=invalid-name

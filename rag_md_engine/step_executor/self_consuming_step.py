@@ -5,8 +5,8 @@
 
 from typing import Generic, Optional, get_args
 
-from src.datacontract import TypedStep
-from src.datacontract.typed_step import OUTCONTRACT, SETTS
+from rag_md_engine.datacontract import TypedStep
+from rag_md_engine.datacontract.typed_step import OUTCONTRACT, SETTS
 
 
 class SelfConsumingLeafStep(TypedStep[SETTS, OUTCONTRACT, OUTCONTRACT], Generic[SETTS, OUTCONTRACT]):
