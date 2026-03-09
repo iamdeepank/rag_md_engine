@@ -1,5 +1,8 @@
 # RELEASES
 
+## 0.1.4
+- Fix pyproject.toml for load data with package
+
 ## 0.1.3
 - Fix import package error
 
