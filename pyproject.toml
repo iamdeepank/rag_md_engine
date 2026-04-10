@@ -1,7 +1,7 @@
 [project]
 name = "rag_md_engine"
-version = "0.1.4"
-description = "Add your description here"
+version = "0.1.5"
+description = "Rag pipeline for Markdown."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
