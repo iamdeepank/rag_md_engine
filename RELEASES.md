@@ -1,4 +1,7 @@
 # RELEASES
+## 0.1.5
+- Add new md file
+- Add makefile
 
 ## 0.1.4
 - Fix pyproject.toml for load data with package

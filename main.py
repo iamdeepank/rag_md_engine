@@ -23,6 +23,6 @@ from rag_md_engine.manual_markdown import DeMarkdownStep
  
 hilfe_documents: list[MarkdownDataContract]
 with BaseStepExecutor() as exe:
-    hilfe_documents, _ = exe(DeMarkdownStep, set(), None)[0]#
+    hilfe_documents, _ = exe(DeMarkdownStep, set(), "output")[0]#
 
     print("document__", hilfe_documents)

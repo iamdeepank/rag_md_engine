@@ -239,3 +239,4 @@ examples/pipeline/output
 /uv.lock
 .gitconfig-personal
 .idea
+/output
