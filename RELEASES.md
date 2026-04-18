@@ -1,4 +1,7 @@
 # RELEASES
+## 0.1.6
+- Fix import problem
+
 ## 0.1.5
 - Add new md file
 - Add makefile
