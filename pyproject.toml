@@ -1,5 +1,5 @@
 [project]
-name = "rag_md_engine"
+name = "rag-md-engine"
 version = "0.1.5"
 description = "Rag pipeline for Markdown."
 readme = "README.md"
@@ -10,6 +10,7 @@ dependencies = [
     "pandera>=0.29.0",
     "pydantic>=2.12.5",
     "pydantic-settings>=2.13.1",
+    "pytest>=9.0.3",
     "pyyaml>=6.0.3",
 ]
 
